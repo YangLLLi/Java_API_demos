@@ -5,6 +5,11 @@ import java.security.NoSuchAlgorithmException;
 import java.security.SecureRandom;
 import java.util.Base64;
 
+/**
+ * @author Yang
+ * @since 1.8
+ */
+
 public class AESTest {
     public static void main(String[] args) {
         try {

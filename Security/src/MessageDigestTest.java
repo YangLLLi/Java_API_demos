@@ -2,6 +2,11 @@ import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 import java.util.Arrays;
 
+/**
+ * @author Yang
+ * @since 1.8
+ */
+
 public class MessageDigestTest {
     public static void main(String[] args) {
         try {
