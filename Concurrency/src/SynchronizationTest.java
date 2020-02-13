@@ -62,7 +62,7 @@ class VolatileTest {
  * 使用atomic类
  */
 class AtomicTest {
-    //非阻塞同步
+    //非阻塞同步 CAS
     private AtomicInteger ai;
 
     public AtomicTest() {
