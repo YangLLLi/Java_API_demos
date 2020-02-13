@@ -25,7 +25,7 @@ public class SynchronizationTest {
      * 4. 使用并发集合类 ConcurrentHashMap、BlockingQueue等
      * 5. 使用ThreadLocal变量
      * <p>
-     * 6.使用锁保证同步 Synchronized wait signalAll; ReentrantLock Condition
+     * 6.使用锁保证同步 Synchronized wait notifyAll; ReentrantLock Condition
      */
     public static void main(String[] args) {
         AtomicTest at = new AtomicTest();

@@ -45,7 +45,7 @@ public class SocketTest {
         Socket socket = new Socket();
 //            阻塞直到连接上
         socket.connect(new InetSocketAddress("localhost", 8089));
-        try (final InputStream inputStream = socket.getInputStream()) {
+        try (InputStream inputStream = socket.getInputStream()) {
             Scanner in = new Scanner(inputStream);
 //                阻塞直到有输入
             while (in.hasNext()) {

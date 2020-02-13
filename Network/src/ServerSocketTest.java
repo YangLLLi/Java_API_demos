@@ -27,8 +27,8 @@ public class ServerSocketTest {
     public static void serverSocketTest() throws IOException {
         try (ServerSocket serverSocket = new ServerSocket(8089)) {
             ExecutorService executorService = Executors.newCachedThreadPool();
-            //阻塞直到有连接
             while (true) {
+                //阻塞直到有连接
 //                不能使用try,否则可能在output未完成前socket自动关闭
                 Socket accept = serverSocket.accept();
                 Runnable runnable = () -> {
