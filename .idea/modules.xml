@@ -7,6 +7,7 @@
       <module fileurl="file://$PROJECT_DIR$/DateTime/DateTime.iml" filepath="$PROJECT_DIR$/DateTime/DateTime.iml" />
       <module fileurl="file://$PROJECT_DIR$/IO/IO.iml" filepath="$PROJECT_DIR$/IO/IO.iml" />
       <module fileurl="file://$PROJECT_DIR$/Language/Language.iml" filepath="$PROJECT_DIR$/Language/Language.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Log/Log.iml" filepath="$PROJECT_DIR$/Log/Log.iml" />
       <module fileurl="file://$PROJECT_DIR$/Network/Network.iml" filepath="$PROJECT_DIR$/Network/Network.iml" />
       <module fileurl="file://$PROJECT_DIR$/Security/Security.iml" filepath="$PROJECT_DIR$/Security/Security.iml" />
     </modules>
