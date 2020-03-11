@@ -7,10 +7,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Log" />
+        <module name="Network" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="Log" target="1.8" />
+      <module name="Network" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

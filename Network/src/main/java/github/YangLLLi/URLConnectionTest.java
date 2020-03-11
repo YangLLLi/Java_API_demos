@@ -1,3 +1,5 @@
+package github.YangLLLi;
+
 import java.io.IOException;
 import java.net.HttpURLConnection;
 import java.net.URI;
@@ -75,4 +77,5 @@ public class URLConnectionTest {
 //         关闭连接
         httpURLConnection.disconnect();
     }
+
 }
