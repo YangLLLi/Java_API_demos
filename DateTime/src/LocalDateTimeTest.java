@@ -14,7 +14,7 @@ public class LocalDateTimeTest {
     }
     /**
      * LocalDate、LocalTime、LocalDateTime;实现 Temporal、TemporalAdjuster
-     * period使用 ; 实现TemporalAmount
+     * period使用实现TemporalAmount
      */
     public static void localDateTimeTest() {
 //        localDate
